@@ -5,14 +5,14 @@
 ## 事前準備
 
  **Gemini APIキーの取得**
-   - [Google AI Studio](https://aistudio.google.com/) にアクセスし、APIキーを生成してください。
-   - 参考：https://qiita.com/IshigiwaKenichiro/items/3da8fb4f3bb2e724fe97
+   - [Google AI Studio](https://aistudio.google.com/) にアクセスし、APIキーを生成してください。<br>
+   参考：https://qiita.com/IshigiwaKenichiro/items/3da8fb4f3bb2e724fe97
    - GeminiAPIキーの無料枠を使うため、料金は発生しません。
 
 ## Docker環境の構築
 
-以下のサイトに従ってDocker Desktopをダウンロードしてください。
-https://qiita.com/zembutsu/items/a98f6f25ef47c04893b3
+以下のサイトに従ってDocker Desktopをダウンロードしてください。<br><br>
+https://qiita.com/zembutsu/items/a98f6f25ef47c04893b3<br><br>
 すでにダウンロードしている方は、次に進んで下さい。
 
 ## GitHubからコードを取得する
@@ -59,10 +59,11 @@ docker-compose down
    - 練習モード: 既存の問題を選び、練習できます。
 3. **コードの提出**: エディタにコードを書き、「回答を提出」ボタンを押すと、AIによる採点とフィードバックが表示されます。
 4. **学習履歴**: 提出したコードの履歴を確認できます。ここで「CSVで保存」を押すと、提出履歴をCSVファイルとして保存できます。
-5. **アンケート**: 4で保存したcsvファイルは、アンケートフォームで提出してください。
+   - csvファイルは「p93m8ein@s.okayama-u.ac.jp」宛に送ってもらえると幸いです。
+5. **アンケート**: メールに添付してあるアンケートフォームに回答してください。
 
 ## トラブルシューティング
 
-### Docker起動時にエラーが出る場合
-- **Docker Desktopが起動しているか確認**: スタートメニューから「Docker Desktop」を実行し、クジラのアイコンが安定するまで待ってから再度コマンドを打ってください。
+**Docker起動時にエラーが出る場合**
+- Docker Desktopが起動しているか確認: スタートメニューから「Docker Desktop」を実行し、クジラのアイコンが安定するまで待ってから再度コマンドを打ってください。
 
