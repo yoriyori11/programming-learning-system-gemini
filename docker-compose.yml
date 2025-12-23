@@ -1,0 +1,13 @@
+services:
+  web:
+    image: yoriyori11/programming-learning-system-gemini:latest
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - learning_data:/app/instance
+    restart: always
+
+volumes:
+  learning_data:
